@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  header {
+    background-color: #141414;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 120px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 30px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  #hero {
+    position: relative;
+    height: 500px;
+    background-color: #333;
+  }
+  
+  #hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .content-grid {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .content-grid div {
+    min-width: 200px;
+    margin-right: 10px;
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .content-grid img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #141414;
+    padding: 10px;
+    text-align: center;
+  
+  
+  .movies h2{
+    text-align: center;
+  }  position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
